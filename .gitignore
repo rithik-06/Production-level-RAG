@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDE and editor settings
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# Lock and dependency files (optional)
+uv.lock
+
+# Local storage or database folders
+qdrant_storage/
