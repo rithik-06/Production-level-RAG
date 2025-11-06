@@ -72,7 +72,7 @@ async def rag_query_pdf_ai(ctx: inngest.Context):
 
     context_block = "\n\n".join(f"- {c}" for c in found.contexts)
     user_content = (
-        "Use the following context to answer the question.\n\n"
+        "Use the following context  to answer the question.\n\n"
         f"Context:\n{context_block}\n\n"
         f"Question: {question}\n"
         "Answer concisely using the context above."
